@@ -5,6 +5,9 @@ const successSection = document.getElementById("success-section-container");
 const dismissButton = document.getElementById("dismiss-button");
 const errorMessage = document.getElementById("email-error");
 
+signupSection.style.display = "flex";
+successSection.style.display = "none";
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const email = emailInput.value;

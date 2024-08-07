@@ -219,12 +219,14 @@ body {
     justify-content: center;
   }
   #signup-section-container {
+    display: flex;
     flex-direction: column;
     border-radius: 0;
     padding: 0;
     padding-bottom: 2rem;
     margin: 0;
     width: 100%;
+    height: 100%;
     max-height: fit-content;
     text-wrap: break-word;
     gap: 1.5rem;
@@ -268,6 +270,5 @@ body {
   }
   .attribution {
     display: none;
-    
   }
 }
